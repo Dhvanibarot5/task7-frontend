@@ -1,25 +1,26 @@
-import './App.css'
-import BookDisplay from './components/BookDisplay'
-import Footer from './components/Footer'
-import Header from './components/Header'
-import HeroSection from './components/HeroSection'
-import Login from './components/Login'
-import MyAccount from './components/MyAccount'
-import Signup from './components/Signup'
+import "./App.css";
+import BookDisplay from "./components/BookDisplay";
+import Categories from "./components/Categories";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+import HeroSection from "./components/HeroSection";
+import Login from "./components/Login";
+import MyAccount from "./components/MyAccount";
+import Signup from "./components/Signup";
 
 function App() {
-
   return (
     <>
-      <Header/>
-      <HeroSection/>
-      <BookDisplay/>
-      <Footer/>
-      <Login/>
-      <Signup/>
-      <MyAccount/>
+      <Header />
+      <HeroSection />
+      <BookDisplay />
+      <Footer />
+      <Login />
+      <Signup />
+      <MyAccount />
+      <Categories />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
