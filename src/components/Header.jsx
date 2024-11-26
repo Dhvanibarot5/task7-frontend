@@ -4,7 +4,7 @@ function Header() {
   return (
     <section className="bg-white shadow-md py-4">
       <div className="container mx-auto flex justify-between items-center py-4 px-6">
-        <h1 className="text-2xl font-bold">E-Library</h1>
+        <h1 className="text-2xl font-bold text-[#326d8d]">E-Library</h1>
         <ul className="flex space-x-6">
           <li>
             <a href="#" className="text-gray-700 hover:text-[#669bbc] font-medium">Home</a>
