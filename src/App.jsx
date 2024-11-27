@@ -4,22 +4,29 @@ import Categories from "./components/Categories";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import HeroSection from "./components/HeroSection";
-import Login from "./components/Login";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import MyAccount from "./components/MyAccount";
-import Signup from "./components/Signup";
 
 function App() {
   return (
-    <>
+    <Router>
       <Header />
-      <HeroSection />
-      <BookDisplay />
+      <Routes>
+        <Route
+          path="/"
+          element={
+            <>
+              <HeroSection />
+              <BookDisplay />
+              <Categories />
+            </>
+          }
+        />
+
+        <Route path="/my-account" element={<MyAccount />} />
+      </Routes>
       <Footer />
-      <Login />
-      <Signup />
-      <MyAccount />
-      <Categories />
-    </>
+    </Router>
   );
 }
 

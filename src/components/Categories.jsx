@@ -49,7 +49,7 @@ function Categories() {
   ];
 
   return (
-    <section className="bg-[#232946] text-white py-12 min-h-screen">
+    <section id="categories-section" className="bg-[#232946] text-white py-12 min-h-screen">
       <div className="container mx-auto px-4">
         <h1 className="text-3xl font-bold mb-8 text-center">Book Categories</h1>
         
