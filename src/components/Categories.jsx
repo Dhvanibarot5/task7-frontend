@@ -6,7 +6,7 @@ function Categories() {
       id: 1,
       name: "Fiction",
       description: "Explore imaginative stories and narratives",
-      image: "https://covers.openlibrary.org/b/id/12547898-L.jpg", // 1984 cover
+      image: "https://covers.openlibrary.org/b/id/12547898-L.jpg", 
       books: [
         { title: "1984", author: "George Orwell" },
         { title: "The Great Gatsby", author: "F. Scott Fitzgerald" },
@@ -17,7 +17,7 @@ function Categories() {
       id: 2,
       name: "Self-Development",
       description: "Books to help you grow and improve",
-      image: "https://covers.openlibrary.org/b/id/10918079-L.jpg", // Atomic Habits cover
+      image: "https://covers.openlibrary.org/b/id/10918079-L.jpg", 
       books: [
         { title: "Atomic Habits", author: "James Clear" },
         { title: "Big Magic", author: "Elizabeth Gilbert" },
@@ -28,7 +28,7 @@ function Categories() {
       id: 3,
       name: "Fantasy",
       description: "Journey into magical and mystical worlds",
-      image: "https://covers.openlibrary.org/b/id/12547896-L.jpg", // The Hobbit cover
+      image: "https://covers.openlibrary.org/b/id/12547896-L.jpg", 
       books: [
         { title: "The Hobbit", author: "J.R.R. Tolkien" },
         { title: "Dune", author: "Frank Herbert" },
@@ -39,7 +39,7 @@ function Categories() {
       id: 4,
       name: "Mystery & Thriller",
       description: "Suspenseful and gripping page-turners",
-      image: "https://covers.openlibrary.org/b/id/10389354-L.jpg", // The Silent Patient cover
+      image: "https://covers.openlibrary.org/b/id/10389354-L.jpg", 
       books: [
         { title: "The Silent Patient", author: "Alex Michaelides" },
         { title: "After You", author: "Jojo Moyes" },
